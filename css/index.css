@@ -251,38 +251,7 @@ main {
   box-shadow: 0 5px 20px rgba(0,0,0,0.3);
 }
 
-footer {
-  background: linear-gradient(0deg, #000000, #1a1a1a);
-  color: white;
-  height: 300px;
-  padding: 4rem 2rem;
-  margin-top: 4rem;
-}
 
-.footer-content {
-  max-width: 1200px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
-  overflow:hidden;
-  text-overflow: ellipsis;
-}
-
-.footer-content div{
-  width: 33.3%;
-  height: 200px;
-  padding: 20px;
-  overflow:hidden;
-  text-overflow: ellipsis;
-  
-}
-.footer-content div h3{
-  text-align: center;
-}
-.footer-content div p{
-  text-align: justify;
-}
 .social-links {
   display: flex;
   width: 100%;

@@ -13,22 +13,15 @@ body {
 }
 
 .header {
-    width: 100%;
+    max-width: 1200px;
     height: 400px;
+    margin: auto;
     position: relative;
     margin-bottom: 2rem;
     overflow: hidden;
 }
 
-.header-image {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(45deg, #4a90e2, #63b3ed);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    animation: pulse 3s infinite;
-}
+
 
 @keyframes pulse {
     0% { background-position: 0% 50%; }
@@ -40,6 +33,8 @@ body {
     display: grid;
     grid-template-columns: 2fr 1fr;
     gap: 2rem;
+    max-width: 1200px;
+    margin: auto;
 }
 
 article {
@@ -111,4 +106,25 @@ footer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
+  }
+
+  @media (min-width: 350px) and (max-width: 600px){
+    .header{
+        width: 100%;
+        height: 250px;
+    }
+    .main-content{
+        display: block;
+        padding: 20px;
+    }
+  }
+  @media (min-width: 301px) and (max-width: 1040px){
+    .header{
+        width: 100%;
+        height: 250px;
+    }
+    .main-content{
+        
+        padding: 20px;
+    }
   }

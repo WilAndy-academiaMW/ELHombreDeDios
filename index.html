@@ -1,20 +1,21 @@
 <html>
   <head>
-    <base href=".">
+    
     <title>El Hombre De Dios</title>
+    <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/index.css">
      <link rel="stylesheet" href="css/header.css">
-     <link rel="stylesheet" href="css/nav.css">
+     <link rel="stylesheet" href="css/footer.css">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
       <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
   
    </head>
 <body>
-  <div style="width: 100%;height: auto;background-color: black;"  >
+  <div class="navegacion"   >
   <nav class="navbar">
-    <div class="perfil" style="width: 50%; height: 100%; display: flex; justify-content: baseline; align-items: center; " >
-       <img src="img/logo.png" class="logo"  alt="imagen de perfil">
+    <div class="perfil" >
+       <img src="img/logo.png" class="logos"  alt="imagen de perfil">
        <div class="perfil-t">
         El Hombre De Dios
        </div> 
@@ -232,54 +233,6 @@
 <script src="js/index.js">
 
 </script>
-<script>document.querySelector('.search-container input').addEventListener('keypress', function (e) {
-  if (e.key === 'Enter') {
-    const searchTerm = this.value;
-    window.location.href = `https://example.com/buscar?q=${encodeURIComponent(searchTerm)}`;
-  }
-});
-document.querySelector('.gaming-section a').addEventListener('click', function (e) {
-  e.preventDefault();
-  alert('¡Gracias por explorar nuestro mundo gaming!');
-});
-document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-  anchor.addEventListener('click', function (e) {
-    e.preventDefault();
-    document.querySelector(this.getAttribute('href')).scrollIntoView({
-      behavior: 'smooth'
-    });
-  });
-});
-let currentSlide = 0;
-const slides = document.querySelectorAll('.slide');
-const titles = document.querySelectorAll('.slider-titles li');
-let slideInterval;
-function nextSlide() {
-  slides[currentSlide].classList.remove('active');
-  titles[currentSlide].classList.remove('active');
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].classList.add('active');
-  titles[currentSlide].classList.add('active');
-}
-function startSlideShow() {
-  slides[currentSlide].classList.add('active');
-  titles[currentSlide].classList.add('active');
-  slideInterval = setInterval(nextSlide, 5000);
-}
-function selectSlide(index) {
-  clearInterval(slideInterval);
-  slides[currentSlide].classList.remove('active');
-  titles[currentSlide].classList.remove('active');
-  currentSlide = index;
-  slides[currentSlide].classList.add('active');
-  titles[currentSlide].classList.add('active');
-  slideInterval = setInterval(nextSlide, 5000);
-}
-document.addEventListener('DOMContentLoaded', function () {
-  startSlideShow();
-  titles.forEach((title, index) => {
-    title.addEventListener('click', () => selectSlide(index));
-  });
-});</script>
+
 
 </body></html>
