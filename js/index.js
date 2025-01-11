@@ -21,9 +21,9 @@ function updateContent() {
          <img src="${elementos[slider].imgSrc}" alt="Imagen de ${elementos[slider].nombre} ${elementos[slider].apellido}" />
          <div class='slider'>
            <h3 style='color:${estilo[style].colorh2};'> ¿Que aprendemos de la Biblia?</h3>
-           <h1 style='color:${estilo[style].colorh1}; teXt-shadow:${estilo[style].sombreh1};'>¡Descubre su sabiduria con nosotros!</h1>
+<h1 style='color:${estilo[style].colorh1}; teXt-shadow:${estilo[style].sombreh1};'>¡Descubre su sabiduria con nosotros!</h1>
           <a href="${estilo[style].link}"> 
-          <button  class='botonSlider' style='color:${estilo[style].colorboton}; background:${estilo[style].fondoboton}'>Leer más</button>
+                  <!--    <button  class='botonSlider' style='color:${estilo[style].colorboton}; background:${estilo[style].fondoboton}'>Leer más</button>-->
          </a>
           </div>
       </div>
