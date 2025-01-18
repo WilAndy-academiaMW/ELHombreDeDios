@@ -37,6 +37,20 @@ setInterval(updateContent, 3000);
 updateContent();
 
 
+ 
+     
+
+// carrusel lacras
+        function scrollIzquierda() {
+            var contenedor = document.getElementById('contenedor');
+            contenedor.scrollBy({ left: -200, behavior: 'smooth' });
+        }
+        
+        function scrollDerecha() {
+            var contenedor = document.getElementById('contenedor');
+            contenedor.scrollBy({ left: 200, behavior: 'smooth' });
+        }
+    
 
 
   

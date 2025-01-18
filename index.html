@@ -4,6 +4,7 @@
     <meta name="description" content="En el Hombre de Dios, nos dedicamos a bridar enseñanzas bíblicas mediante la biblia para la mejora de la persona espiritual. Donde le enseñamos como ser mejor personas, mejor cristianos, y ser feliz en la vida desarrollando su personalidad mediante la biblia. acompáñanos en este proyecto donde puede beneficiarte con nosotros">
     <link rel="stylesheet" href="css/nav.css">
      <link rel="stylesheet" href="css/index.css">
+     <link rel="stylesheet" href="css/indexDOS.css">
      <link rel="stylesheet" href="css/header.css">
      <link rel="stylesheet" href="css/footer.css">
      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
@@ -52,7 +53,7 @@
   <header class="encabezado">  
   </header>
 
-<main>
+  <main>
   <!-- 
   <section class="featured-articles">
     <article class="article-card">
@@ -83,10 +84,10 @@
   <section class="categories">
     <h2>Categorias</h2>  
     <!-- PERSONAJES BÍBLICOS-->
-    <div class="category-container">
+    <div class="category-container" >
         <span>Lecciones de personajes Bíblicos</span>
-      <div class="category-carousel">
-        <div class="carousel-container">
+      <div class="category-carousel" >
+            <div class="carousel-container" id="contenedor">
           <div class="carousel-item">
             <div class="carousel-thumbnail">
               <img style="width: 100%;height: 100%; "  src="articulos/img/esther.png" alt="">
@@ -123,7 +124,14 @@
               <a href="articulos/ElReyDavid.html" class="carousel-button">Leer m&#xe1;s</a>
             </div>
           </div>
+          <div class="arrow-D" >
+            <i class="fa-solid fa-arrow-left"   onclick="scrollIzquierda()" ></i>
+          </div>
+       <div class="arrow-I">
+        <i class="fa-solid fa-arrow-right"  onclick="scrollDerecha()"></i>
+      </div>
         </div>
+              
       </div>
     </div>
     <!-- Leciones de los proverbios y esclesiasted-->
@@ -149,6 +157,7 @@
               <a href="articulos/ElJovenInsesato.html" class="carousel-button">Leer m&#xe1;s</a>
             </div>
           </div>
+          
         </div>
       </div>
     </div>
@@ -255,9 +264,9 @@
       <a href="https://www.tiktok.com/@elhombre_dios.99?is_from_webapp=1&sender_device=pc" class="platform-button">S&#xed;guenos</a>
     </div>
   </section>
-</main>
+  </main>
 
-<footer>
+  <footer>
   <div class="footer-content">
     <div>
       <h3>El Hombre De Dios</h3>
@@ -279,12 +288,12 @@
 
     </div>
   </div>
-</footer>
+  </footer>
 
 
-<script src="js/index.js">
+ <script src="js/index.js">
 
-</script>
+ </script>
 
 
 </body>

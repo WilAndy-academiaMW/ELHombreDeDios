@@ -93,20 +93,7 @@ aside h3 {
     background: #3182ce;
 }
 
-footer {
-    background: linear-gradient(0deg, #000000, #1a1a1a);
-    color: white;
-    padding: 4rem 2rem;
-    margin-top: 4rem;
-  }
-  
-  .footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
-  }
+
 
   @media (min-width: 350px) and (max-width: 600px){
     .header{
