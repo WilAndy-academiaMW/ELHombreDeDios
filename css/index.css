@@ -20,7 +20,7 @@ body {
 
 
 main {
-  margin-top: 80px;
+  
   padding: 2rem;
   max-width: 1200px;
   margin-inline: auto;
@@ -330,12 +330,24 @@ main {
   transform: translateY(-3px);
 }
 
+@media (min-width: 330px) and (max-width: 1024px){
+  .categories{
+    background:none ;
+    border: none;
+    border-radius: none;
+  }
+}
 @media (min-width: 340px) and (max-width: 600px){
-main{
+  .encabezado{
+    height: 350px;
+  }
+
+  main{
 width: 100%;
 }
 .categories{
   border: none;
   padding: 0;
+  background-color: none;
 }
 }

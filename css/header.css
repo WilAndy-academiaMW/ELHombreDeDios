@@ -22,14 +22,12 @@ header {
   height: 80%;
 }
 .encabezado div .slider{
-  position: absolute;
-  width: 600px;
-  height: 200px;
-  background-color: rgb(154, 114, 114);
-  opacity: 0.9;
-  z-index: 1;
-  bottom: -50;
-  transform: translate(50%, -50%);
+ 
+  position: absolute; width: 300px; /* Ajusta el ancho según sea necesario */ 
+  height: 100px; /* Ajusta la altura según sea necesario */
+   background-color: rgb(154, 114, 114); /* Color de fondo */ 
+   bottom: 0; /* Posiciona la caja hija en el fondo del contenedor */
+    left: 50%; /* Posiciona la caja hija en el medio horizontal */ transform: translateX(-50%,50%); /* Centra la caja hija horizontalmente */ z-index: 2;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -43,8 +41,26 @@ header {
   cursor: pointer;
   border-radius: 10px;
 }
+@media (min-width: 330px) and (max-width: 600px) {
+  .encabezado {
+    width: 100%;
+    height: 300px;
+  }
+  .encabezado div .slider {
+    position: absolute; 
+    width: 300px; /* Ajusta el ancho según sea necesario */
+     height: 100px; /* Ajusta la altura según sea necesario */ 
+     background-color: rgb(154, 114, 114); /* Color de fondo */ 
+     bottom: 0; /* Posiciona la caja hija en el fondo del contenedor */ 
+     left: 50%; /* Posiciona la caja hija en el medio horizontal */ 
+     transform: translateX(-50%); /* Centra la caja hija horizontalmente */
+  }
+  .slider h1 {
+    font-size: 1.5em;
+  }
+}
 
-@media (max-width: 1000px) {
+@media (min-width: 601px) and (max-width: 1000px) {
   .encabezado {
     width: 100%;
     height: 500px;
