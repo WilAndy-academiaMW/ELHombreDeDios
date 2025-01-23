@@ -50,6 +50,18 @@ updateContent();
             var contenedor = document.getElementById('contenedor');
             contenedor.scrollBy({ left: 200, behavior: 'smooth' });
         }
+
+
+        // carrusel lacras 2
+        function scrollIzquierda2() {
+            var contenedor = document.getElementById('contenedorTWO');
+            contenedor.scrollBy({ left: -200, behavior: 'smooth' });
+        }
+        
+        function scrollDerecha2() {
+            var contenedor = document.getElementById('contenedorTWO');
+            contenedor.scrollBy({ left: 200, behavior: 'smooth' });
+        }
     
 
 
