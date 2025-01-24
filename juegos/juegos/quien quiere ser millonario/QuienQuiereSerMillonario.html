@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Quien Conoce Mas de La Biblia?</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lobster&display=swap">
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="../../../css/nav.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="../../../img/perfil.jpg" type="image/x-icon">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        .fondo-rojo {
+            background-color: red;
+        }
+        body {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(to bottom, #a99b82, #000000);
+        }
+        h1 {
+            font-family: 'Lobster', cursive;
+            text-align: center; 
+            margin-top: 10px;
+            font-size: 4em; 
+            color: #3b1208;
+            text-shadow: 2px 2px 0 #fff4ec, -2px -2px 0 #414141, 2px -2px 0 #0b4323, -2px 2px 0 #feb47b;
+        }
+        
+        .pregunta {
+            width: 100%;
+            height: 30%;
+            color: white;
+            font-size: 40px;
+            text-align: center;
+        }
+        .respuestas {
+            display: flex;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 70%;
+        }
+        .ONE {
+            width: 50%;
+            height: 50%;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .ayuda {
+            position: absolute;
+            width: 100px;
+            height: 65px;
+            left: 10px;
+            bottom: 50%;
+            background: linear-gradient(to bottom, #f3a41a, #000000);
+            border: 1px solid black;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 25px;
+            color: white;
+            cursor: pointer;
+            text-align: center; /* Esto asegurará que el texto esté centrado */
+        }
+    </style>
+</head>
+<body>
+    <div class="navegacion"   >
+        <nav class="navbar">
+          <div class="perfil" >
+           <a href="../../../index.html" class="logos"> 
+            <img src="../../../img/logo.png" class="logo-img"  alt="imagen de perfil">
+          </a> 
+             <div class="perfil-t">
+              El Hombre De Dios
+             </div> 
+             
+            
+          </div>
+          <div class="social-icons">
+              <a href="https://www.youtube.com/@Elhombre.espiritual" class="social-icon" target="_blank">
+                  <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.tiktok.com/@elhombre_dios.99?is_from_webapp=1&sender_device=pc" class="social-icon" target="_blank">
+                  <i class="fab fa-tiktok"></i>
+              </a>
+          </div>
+        </nav>
+      </div>
+    <div class="container">
+        <h1>¿Quien Conoce Mas de La Biblia?</h1>
+
+        <div class="prize-ladder">
+            <!-- -->
+            <div class="prize-step ">1000000</div>
+            <div class="prize-step">500000</div>
+            <div class="prize-step">250000</div>
+            <div class="prize-step">100000</div>
+            <div class="prize-step">50000</div>
+            <div class="prize-step">25000</div>
+            <div class="prize-step">10000</div>
+            <div class="prize-step">5000</div>
+            <div class="prize-step">1000</div>
+            <div class="prize-step active">500</div>
+        </div>
+
+        <div class="question-container active-question" style="margin-top: 20px;">
+            <h2 id="preguntaONE"></h2>
+        </div>
+
+        <div class="options-container">
+            <div class="option" id="respuesta1">
+                <span >A:</span> 
+            </div>
+            <div class="option" id="respuesta2">
+                <span id="respuesta">B:</span> 
+            </div>
+            <div class="option" id="respuesta3">
+                <span id="respuesta">C:</span> 
+            </div>
+            <div class="option" id="respuesta4">
+                <span id="respuesta">D:</span> 
+            </div>
+        </div>
+        <div class="lifelines">
+            <div class="lifeline" id="help-button" onclick="usarAyuda()">50:50</div>
+            <div class="lifeline">📞</div>
+            <div class="lifeline">👥</div>
+        </div>
+    </div>
+    </div>
+    
+   
+    
+    <script src="js/millonario.js"></script>
+</body>
+</html>
+
