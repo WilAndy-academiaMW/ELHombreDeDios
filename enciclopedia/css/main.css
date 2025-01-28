@@ -1,0 +1,45 @@
+.iten{
+    width: 70%;
+    height: 18%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: baseline;
+    gap: 10px;
+    align-items: center;
+   
+}
+.iten2{
+    width: 70%;
+    height: 18%;
+    margin-right: 10%;
+    display: flex;
+    justify-content: end;
+    gap: 10px;
+    align-items: center;
+}
+.iten img{
+    width: 20%;
+    height: 70%;
+    margin-left: 10px;
+}
+.iten h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6)
+}
+.iten2 img{
+    width: 20%;
+    height: 70%;
+    margin-left: 10px;
+}
+.iten2 h3{
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6)
+}

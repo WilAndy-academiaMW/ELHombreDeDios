@@ -73,8 +73,6 @@ background-color: black;
 }
 
 
-
-
 @media (min-width: 340px) and (max-width: 600px){
     .navegacion{
         height: 6vh;
@@ -133,7 +131,6 @@ background-color: black;
     }
     
 }
-
 @media (min-width: 900px) and (max-width: 1024px){
     .navegacion{
         height: 7vh;
