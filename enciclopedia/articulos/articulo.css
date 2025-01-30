@@ -1,0 +1,45 @@
+body{ 
+    padding:0;
+    margin: 0;  
+    background: linear-gradient(to right, #2d6dfe, #ffffff);
+     width: 100%;
+     height: 100vh;
+     
+    }
+    main{
+        width: 100%;
+        height: 90vh;
+        display: flex;
+    }
+    .panel{
+        width: 20%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .panel 
+
+    .article{
+        width: 80%;
+        height: 100%;
+    }
+
+    /* aqui va los item*/
+
+    .indice{
+        width: 80%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        color: white;
+        font-size: 1.2em;
+        font-weight: 700;
+    }
+    .indice img{
+        width: 20%;
+        height: 100%;
+        margin-right: 20px;
+    }

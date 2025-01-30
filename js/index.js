@@ -1,8 +1,8 @@
 //slider header pricipal
 
 const elementos = [
-    {imgSrc: '../articulos/img/la sulamita.webp', nombre: 'Nicolas', apellido: 'Tesla', fondo: 'img/rayo.webp'},
-    {imgSrc: '../articulos/img/esther.png', nombre: 'Nombre2', apellido: 'Apellido2', fondo: 'fondo2.jpg'},
+    {imgSrc: '../articulos/img/salomon.jpg', nombre: 'Nicolas', apellido: 'Tesla', fondo: 'img/rayo.webp'},
+    {imgSrc: '../articulos/img/la sulamita.webp', nombre: 'Nombre2', apellido: 'Apellido2', fondo: 'fondo2.jpg'},
     {imgSrc: '../articulos/img/el rey David.jpg', nombre: 'Nombre3', apellido: 'Apellido3', fondo: 'fondo3.jpg'}
 ];
 
