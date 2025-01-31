@@ -62,6 +62,18 @@ updateContent();
             var contenedor = document.getElementById('contenedorTWO');
             contenedor.scrollBy({ left: 200, behavior: 'smooth' });
         }
+
+
+         // carrusel lacras 3
+         function scrollIzquierdatres() {
+            var contenedor = document.getElementById('contenedorTre');
+            contenedor.scrollBy({ left: -200, behavior: 'smooth' });
+        }
+        
+        function scrollDerechatres() {
+            var contenedor = document.getElementById('contenedorTre');
+            contenedor.scrollBy({ left: 200, behavior: 'smooth' });
+        }
     
 
 
