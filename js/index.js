@@ -65,13 +65,23 @@ updateContent();
 
 
          // carrusel lacras 3
-         function scrollIzquierdatres() {
-            var contenedor = document.getElementById('contenedorTre');
+         function scrollIzquierda3() {
+            var contenedor = document.getElementById('contenedorTree');
             contenedor.scrollBy({ left: -200, behavior: 'smooth' });
         }
         
-        function scrollDerechatres() {
-            var contenedor = document.getElementById('contenedorTre');
+        function scrollDerecha3() {
+            var contenedor = document.getElementById('contenedorTree');
+            contenedor.scrollBy({ left: 200, behavior: 'smooth' });
+        }
+        // carrusel lacras 4
+        function scrollIzquierda4() {
+            var contenedor = document.getElementById('contenedorFor');
+            contenedor.scrollBy({ left: -200, behavior: 'smooth' });
+        }
+        
+        function scrollDerecha4() {
+            var contenedor = document.getElementById('contenedorFor');
             contenedor.scrollBy({ left: 200, behavior: 'smooth' });
         }
     
