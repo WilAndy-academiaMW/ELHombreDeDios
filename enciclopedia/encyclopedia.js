@@ -31,3 +31,4 @@ item2.addEventListener('click', function() {
     central.innerHTML= `<div class='articulo'>hablame rata</div>`
    
 });
+
