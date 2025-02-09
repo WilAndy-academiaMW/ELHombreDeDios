@@ -1,7 +1,7 @@
 //slider header pricipal
 
 const elementos = [
-    {imgSrc: '../articulos/img/salomon.jpg', nombre: 'Nicolas', apellido: 'Tesla', fondo: 'img/rayo.webp'},
+    {imgSrc: 'img/david.jpg', sombra:'img/sombra2.png', nombre: 'img/david-p.png', boton: 'background-color: #ff4500;', fondo: 'img/rayo.webp'},
     {imgSrc: '../articulos/img/la sulamita.webp', nombre: 'Nombre2', apellido: 'Apellido2', fondo: 'fondo2.jpg'},
     {imgSrc: '../articulos/img/el rey David.jpg', nombre: 'Nombre3', apellido: 'Apellido3', fondo: 'fondo3.jpg'}
 ];
@@ -18,22 +18,18 @@ let style = 0;
 function updateContent() {
     document.querySelector('header').innerHTML = `
       <div>
-         <img src="${elementos[slider].imgSrc}" alt="Imagen de ${elementos[slider].nombre} ${elementos[slider].apellido}" />
-          <!-- <div class='slider'>
-           <h3 style='color:${estilo[style].colorh2};'> ¿Que aprendemos de la Biblia?</h3>
-<h1 style='color:${estilo[style].colorh1}; teXt-shadow:${estilo[style].sombreh1};'>¡Descubre su sabiduria con nosotros!</h1>
-          <a href="${estilo[style].link}"> 
-                     <button  class='botonSlider' style='color:${estilo[style].colorboton}; background:${estilo[style].fondoboton}'>Leer más</button>
-         </a>
-          </div>-->
-      </div>
+         <img src="${elementos[slider].imgSrc}" alt="david /  class='img'>
+          <img src="${elementos[slider].sombra}"  alt='sombra'/ class='sombra'>
+           <img src="${elementos[slider].nombre}"  alt='rey david'/ class='imgp'>
+       <a href='articulos/ElReyDavid.html'><button class="boton" style='${elementos[slider].boton}'>leer Ahora</button></a>
+    </div>
     `;
 
     
-    slider = (slider + 1) % elementos.length;
-    style = (style + 1) % estilo.length;
+  //  slider = (slider + 1) % elementos.length;
+   // style = (style + 1) % estilo.length;
 } 
-setInterval(updateContent, 3000);
+//setInterval(updateContent, 3000);
 updateContent();
 
 
