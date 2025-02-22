@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phaser Game</title>
+    <link rel="stylesheet" href="../../css/nav.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/phaser/3.55.2/phaser.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&amp;display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(to right, #ff7e5f, #86fe7b);
+            margin: 0;
+            padding: 0;
+        }
+        #juego{
+            border:5px solid red ;
+            margin-top: 10px;
+            
+        }
+   
+    </style>
+</head>
+<body>
+    <div class="navegacion"   >
+        <nav class="navbar">
+          <div class="perfil" >
+           <a href="../../index.html" class="logos"> 
+            <img src="../../img/logo.png" class="logo-img"  alt="imagen de perfil">
+          </a> 
+             <div class="perfil-t">
+              El Hombre De Dios
+             </div> 
+             <!--
+             <button class="nav-button">
+              <i class="fas fa-arrow-left"></i> 
+             </button>
+             <button class="nav-button">   
+              <i class="fas fa-arrow-right"></i>
+             </button> -->
+          </div>
+          <div class="social-icons">
+              <a href="https://www.youtube.com/@Elhombre.espiritual" class="social-icon" target="_blank">
+                  <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.tiktok.com/@elhombre_dios.99?is_from_webapp=1&sender_device=pc" class="social-icon" target="_blank">
+                  <i class="fab fa-tiktok"></i>
+              </a>
+          </div>
+        </nav>
+      </div>
+    <div id="juego"></div> <!-- Añade este contenedor -->
+    <script type="module" src="game.js"></script>
+</body>
+</html>

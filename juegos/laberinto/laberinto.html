@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+ 
+    </style>
+    <link rel="icon" href="../img/perfil.jpg" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/your-code-here.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <title>Juego Biblico</title>
+    <script src="node_modules/phaser/dist/phaser.min.js"></script>
+    <script type="module" src="laberinto.js"></script>
+    <script src="laberinto.js"></script>
+    <script src="flechas.js"></script>
+    <link rel="stylesheet" href="../../css/nav.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0s;
+        }
+       body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        background: linear-gradient(135deg, #ed1616, #005eff);
+        height: 100vh;
+       }
+       .virtual-keyboard {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .horizontal-buttons, .vertical-buttons {
+            display: flex;
+        }
+        .button {
+            width: 50px;
+            height: 50px;
+            margin: 5px;
+            background-color: lightgray;
+            border: 1px solid #000;
+            text-align: center;
+            line-height: 50px;
+            cursor: pointer;
+            user-select: none;
+        }
+    </style>
+   
+</head>
+<body>
+    <div class="navegacion"   >
+        <nav class="navbar">
+          <div class="perfil" >
+           <a href="../../index.html" class="logos"> 
+            <img src="../../img/logo.png" class="logo-img"  alt="imagen de perfil">
+          </a> 
+             <div class="perfil-t">
+              El Hombre De Dios
+             </div> 
+             <!--
+             <button class="nav-button">
+              <i class="fas fa-arrow-left"></i> 
+             </button>
+             <button class="nav-button">   
+              <i class="fas fa-arrow-right"></i>
+             </button> -->
+          </div>
+          <div class="social-icons">
+              
+              <a href="https://www.youtube.com/@Elhombre.espiritual" class="social-icon" target="_blank">
+                  <i class="fab fa-youtube"></i>
+              </a>
+              <a href="https://www.tiktok.com/@elhombre_dios.99?is_from_webapp=1&sender_device=pc" class="social-icon" target="_blank">
+                  <i class="fab fa-tiktok"></i>
+              </a>
+          </div>
+        </nav>
+      </div>
+      <div class="virtual-keyboard">
+        <div class="vertical-buttons">
+            <div class="button" id="up">↑</div>
+        </div>
+        <div class="horizontal-buttons">
+            <div class="button" id="left">←</div>
+            <div class="button" id="right">→</div>
+        </div>
+        <div class="vertical-buttons">
+            <div class="button" id="down">↓</div>
+        </div>
+    </div>
+   
+</body>
+</html>

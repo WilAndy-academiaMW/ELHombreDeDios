@@ -13,7 +13,7 @@
 }
 
 body {
-  background: linear-gradient(135deg, #1a1a1a, #2d3748);
+  background: #121212;
   color: var(--light);
   line-height: 1.6;
 }

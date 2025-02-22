@@ -1,0 +1,2 @@
+ Imagina un imperio que duró más de 800 años, uniendo a cientos de reinos, ducados y ciudades bajo un solo título: el Sacro Imperio Romano Germánico. Un gigante político que dominó el corazón de Europa, desde las frías tierras de Alemania hasta las soleadas llanuras de Italia ¿cómo surgió este coloso medieval? Hoy exploraremos los orígenes, la naturaleza y el contexto histórico de uno de los imperios más fascinantes de todos los tiempos.
+
